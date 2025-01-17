@@ -27,7 +27,7 @@ omkretsHalvSirkel = (np.pi * radius)
     # Beregner arealet av trekanten:
 arealTrekant = (dimA * dimB) * 0.5
 
-¤ print (f"Arealet av trekanten er: {arealTrekant:.2f}")
+# print (f"Arealet av trekanten er: {arealTrekant:.2f}")
 
     # Finner hypotenusen til trekanten:
 hypotenus = np.hypot(dimA, dimB)
