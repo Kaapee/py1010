@@ -22,4 +22,4 @@ antall_pizza_desimal = antall_elever * antall_pizza_per_elev
 antall_pizza = int(np.ceil(antall_pizza_desimal))
 
     # Printer ut antall pizza som må bestilles:
-print("Det må bestilles" , antall_pizza)
+print("Det må bestilles" , antall_pizza, "pizzaer")
