@@ -34,12 +34,14 @@ hypotenus = np.hypot(dimA, dimB)
 
 # print (f"Hypotenusen er: {hypotenus:.2f}")
 
-
+    # Finner omkretsen til trekanten:
 omkretsTrekant = dimB + hypotenus
 # print (f"Omkretsen av trekanten er: {omkretsTrekant:.2f}")
 
+    # Finner den totale omkretsen og skriver ut svaret
 totOmkrets = omkretsHalvSirkel + omkretsTrekant
 print (f"Omkretsen er: {totOmkrets:.2f}")
 
+    # Finner det totale arealet og skriver ut svaret
 totAreal = arealHalvSirkel + arealTrekant
 print (f"Arealet er: {totAreal:.2f}")
